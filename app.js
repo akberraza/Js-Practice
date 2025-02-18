@@ -799,14 +799,14 @@
 // var nums =  Math.floor(Math.random(1) * 100);
 // console.log(nums)
 
-var nums = Math.floor(Math.random(1) *10);
-var user = +prompt("Enter any number 1 to 10");
-if(nums == user){
-    alert("You Win")
-}
-else{
-    alert("Try Again")
-}
+// var nums = Math.floor(Math.random(1) *10);
+// var user = +prompt("Enter any number 1 to 10");
+// if(nums == user){
+//     alert("You Win")
+// }
+// else{
+//     alert("Try Again")
+// }
 
 // Loop practice
 
@@ -826,3 +826,236 @@ else{
 // for(var i =1; i <= length; i++){
 //     document.write(`${table} x ${i} = ${table * i} <br>`)
 // }
+
+
+
+// for(var i =1; i<6; i++){
+//     document.write(i+ ") Hello World" + "<br>")
+// }
+
+// for(var i =1; i<11; i++){
+//     document.write(i +" <br>")
+// }
+
+// var table = +prompt("Enter any number for Table");
+// var tablelenght = +prompt("Enter Lenght Table");
+
+// for(var i=1; i<tablelenght+1; i++){
+//     document.write(`${table} x ${i} = ${table * i} <br>`)
+// }
+
+// var phone = ["Nokia","Samsung","Apple","Sony","Huawei"];
+// for(var i=0; i<phone.length; i++){
+//     document.write(phone[i] + "<br>")
+// }
+
+// var fruits = ["apple","banana","mango","orange","strawberry"];
+// for(var i =0; i<fruits.length; i++){
+    
+// }
+
+
+
+// var days = ["Sunday","Monday","Tuesday","wed","thus"];
+// var day = new Date().getDay();
+// document.write(days[day])
+
+
+// var date = new Date();
+// document.write(date)
+
+// var date = new Date();
+// document.write(typeof(date))
+
+// var date  = new Date();
+// document.write(date.toString())
+
+// var date = new Date();
+// document.write(typeof date.toString())
+
+// var date = new Date();
+// document.write(date.toString()[0]);
+
+// var date = new Date();
+// document.write(date.toString().slice(0,15))
+
+// var day = new Date();
+// document.write(day.getDay())
+
+// var day = new Date();
+// var daysName = ["Sun","Mon","Tuse","Wed","Thus","Fri","Sat"];
+// document.write(`Today is ${daysName[day.getDay()]}`);
+
+// var month = new Date();
+// var monthsName = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+// document.write(`This Month is ${monthsName[month.getMonth()]}`)
+
+// var date = new Date();
+// document.write(`Todday ${date.getDate()}`)
+
+// var year = new Date();
+// document.write(year.getFullYear())
+
+// var hour = new Date();
+// document.write(hour.getHours())
+
+// var minute = new Date();
+// document.write(minute.getMinutes());
+
+// var second = new Date();
+// document.write(second.getSeconds());
+
+// var milisecond = new Date();
+// document.write(milisecond.getMilliseconds());
+
+// var time = new Date();
+// document.write(time.getTime());
+
+// var day = new Date("1 september,2003");
+// var daysName = ["Sun","Mon","Tuse","Wed","Thus","Fri","Sat"];
+// document.write(daysName[day.getDay()]);
+
+// var num = 45;
+// var num1 = 44.5;
+// var num2 = 45.10;
+// var num3 = 45;
+
+// document.write(`Number : ${num} <br> round of value : ${Math.round(num1)} <br> floor value : ${Math.floor(num2)} <br> ceil value : ${Math.ceil(num3)}`)
+
+// var num = -32;
+// var num1 = -31.6;
+// var num2 = -31.4;
+// var num3 = -32.5;
+
+// document.write(`Number : ${num} <br> round of value : ${Math.round(num1)} <br> floor value : ${Math.floor(num2)} <br> ceil value : ${Math.ceil(num3)}`)
+
+// var num = 3.45214;
+// var num1 = 3.45214;
+// var num2 = 3.45214;
+// var num3 = 3.45214;
+
+// document.write(`Number : ${num} <br> round of value : ${Math.round(num1)} <br> floor value : ${Math.floor(num2)} <br> ceil value : ${Math.ceil(num3)}`)
+
+// var num = -2.673
+// var num1 = -2.673
+// var num2 = -2.673
+// var num3 = -2.673
+
+// document.write(`Number : ${num} <br> round of value : ${Math.round(num1)} <br> floor value : ${Math.floor(num2)} <br> ceil value : ${Math.ceil(num3)}`)
+
+// var num = -4;
+
+// document.write(`The absolute value of ${num} is ${Math.abs(num)}`)
+
+// document.write(Math.floor(Math.random()* 6)+1)
+
+// var heads = prompt("Enter player 1");
+// var tails = prompt("Enter Player 2");
+// var toss = Math.floor(Math.random() *2)
+
+// if(toss== 0){
+//     document.write(`<center><h3>${heads} is toss win</h3></cennter>`)
+// }
+// else{
+//     document.write(`<center><h3>${tails} is toss win</h3></cennter>`)
+// }
+
+// document.write(Math.floor(Math.random(1)*101))
+
+// var userInput = prompt("Enter your pakge weight");
+// if(userInput.includes("kg")||userInput.includes("kgs")||userInput.includes("kilogram")){
+//     userInput = userInput.split("")[0];
+// }
+// var weight = parseFloat(userInput);
+// if(isNaN(weight)){
+//     alert("Enter a valid weight")
+// }
+// else{
+//     alert(`Your weight is ${weight} kg`)
+// }
+
+// var num = 4;
+// var userInput = +prompt("Enter any number between 1 to 10");
+// if(num == userInput){
+//     alert("You are win")
+// }
+// else{
+//     alert("Try again")
+// }
+
+// var date = new Date();
+// document.write(date)
+
+// var month = new Date();
+// var monthsName = ["January","February","March","April","May","June","July","August","September","October","November","December"]
+// alert(monthsName[month.getMonth()])
+
+// var day = new Date();
+// var daysName = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
+// document.write(`Today is ${daysName[day.getDay()].slice(0,3)}`)
+
+// var day = prompt("Enter any day Name");
+// var days1 = ["Sunday","Saturday"];
+// var days2 = ["Monday","Tuesday","Wednesday","Thursday","Friday"]
+
+// if(days1.includes(day)){
+//     alert("It's Fun day");
+// }
+// if(days2.includes(day)){
+//     alert("It's Week day")
+// }
+
+// var date = new Date().getDate();
+// if(date <16){
+//     alert("First fiften days of month")
+// }
+// else{
+//     alert("Last days of month")
+// }
+
+// var date = new Date();
+// document.write(`current Date : ${date} <br> Elapsed milisecond since january 1, 1970 : ${date.getTime()} <br> Elapsed minutes since january 1, 1970 : ${date / (1000 * 60 * 60)}`)
+
+// var time = new Date().getDate();
+
+// if(time < 12){
+//     alert("It's AM")
+// }
+// else{
+//     alert("It's PM")
+// }
+
+
+// var day = new Date("Dec 31 2020");
+// var daysName = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
+// document.write(`Later Day : ${daysName[day.getDay()]}`)
+
+// var currentRamdan = new Date("Feb 28 2025");
+// var present = new Date();
+// var diff = currentRamdan.getTime() - present.getTime();
+// var final = Math.floor(diff / (1000 * 60 * 60 * 24))
+
+// document.write(`First Ramdan is pass days : ${final}`);
+
+// var December = new Date("Dec 5 2015");
+// var january = new Date("Jan 1 2015");
+// var diff = December.getTime() - january.getTime();
+// var final = diff / 1000;
+// document.write(`On refrence date ${December} <br> ${final} seconds had passed since beginning of 2015`)
+
+
+// function
+
+// function abc(){
+//     console.log("Hello World")
+// }
+// abc();
+// abc();
+// abc();
+// abc();
+
+// function abc(name){
+//   console.log(name)
+// }
+// abc("Akbar Raza")
+
