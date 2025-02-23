@@ -811,6 +811,21 @@
 // Loop practice
 
 
+// var fruits = ["peach","kaila","kino"];
+
+// for(var i=fruits.length-1; i>=0;  i-- ){
+//     document.write(fruits[i] + "<br>")
+// // }
+
+// for(var i=10; i>=1; i--){
+//     document.write(i + "<br>")
+// } 
+
+// for(var i =10; i>=1; i--){
+//     document.write(i + "<br>")
+// }
+
+
 // for(var i =1; i <6; i++){
 //     document.write(i + "Hello World" + "<br>")
 // }
@@ -854,6 +869,8 @@
     
 // }
 
+
+// date section
 
 
 // var days = ["Sunday","Monday","Tuesday","wed","thus"];
@@ -1059,3 +1076,285 @@
 // }
 // abc("Akbar Raza")
 
+// Variable Legel Name
+
+// $name 
+// name$
+// _name
+// name_
+// name123
+
+// Variable Illegal Name
+
+// 123name
+// na-me
+// na me
+// @name
+// true
+
+
+// var radius = 12;
+// var pi = 3.142;
+// var circumference = 2 * pi * radius
+
+// document.write(`
+//     Radius of  a circle : ${radius} <br>
+//     The circumference is : ${circumference} <br>
+//      The area of circle : ${pi * radius * radius}
+//     `)
+
+// var a = 2;
+// var b = 1;
+// var result = --a - --b + ++b + b--
+// document.write(result)
+
+// document.write((85-15)*2)
+
+// var table = prompt("Enter any Number for table");
+
+
+// if(table == ""){
+//     document.write(`
+//        ${5} x 1 = ${5*1} <br>
+//        ${5} x 2 = ${5*2} <br>
+//        ${5} x 3 = ${5*3} <br>
+//        ${5} x 4 = ${5*4} <br>
+//        ${5} x 5 = ${5*5} <br>
+//        ${5} x 6 = ${5*6} <br>
+//        ${5} x 7 = ${5*7} <br>
+//        ${5} x 8 = ${5*8} <br>
+//        ${5} x 9 = ${5*9} <br>
+//        ${5} x 10 = ${5*10} 
+//         `)
+// }
+// else{
+// document.write(`
+//     ${table} x 1 = ${table * 1} <br>
+//     ${table} x 2 = ${table * 2} <br>
+//     ${table} x 3 = ${table * 3} <br>
+//     ${table} x 4 = ${table * 4} <br>
+//     ${table} x 5 = ${table * 5} <br>
+//     ${table} x 6 = ${table * 6} <br>
+//     ${table} x 7 = ${table * 7} <br>
+//     ${table} x 8 = ${table * 8} <br>
+//     ${table} x 9 = ${table * 9} <br>
+//     ${table} x 10 = ${table * 10} <br>
+//     `)
+// }
+
+// var city = prompt("Enter City Name");
+
+// if(city == "karachi"){
+//     alert("welcome to city of Light")
+// }
+
+// var age = +prompt("Enter your age");
+
+// if(age < 12){
+//   alert("Pay a ticket price of 5")
+// }
+// else if(age < 18){
+//     alert("Pay a ticket price of 10")
+// }
+// else if(age < 60){
+//     alert("pay a ticket price of 20")
+// }
+
+
+// var current = prompt("Enter your current age");
+// var maxAge = 25;
+
+// if(current <= maxAge){
+//     alert("You are welcom")
+// }
+
+// var fuel = prompt("Enter your car fuel in litter");
+
+// if(fuel < 0.25){
+//     alert("Please refill the fuel in the car")
+// }
+
+// var a = 4;
+// if(++a === 5){
+//     alert("Given condition for variable is true")
+// }
+
+// var b = 82
+// if(b++ === 83){
+//         alert("Given condition for variable is true")
+
+// }
+
+// var c = 12;
+// if(c++ === 13){
+//         alert("condition 1 is true")
+// }
+
+// if(c === 13){
+//         alert("condition 2 is true")
+// }
+// if(++c < 14){
+//         alert("condition 3 is true")
+// }
+// if(c === 14){
+//         alert("condition 4 is true")
+// }
+
+
+// var materialCost = 20000;
+// var laborCost = 2000;
+// var totalCost = materialCost + laborCost;
+// if(totalCost == materialCost+laborCost){
+//         alert("The cost equal")
+// }
+
+// if(true){
+//         alert("True")
+// }
+// if(false){
+//         alert("False")
+// }
+
+// if("car" > "cat"){
+//         alert("car  is smaller then cat")
+// }
+
+// var subject$1 = +prompt("Enter your 1st subject marks");
+// var subject$2 = +prompt("Enter your 2nd subject marks");
+// var subject$3 = +prompt("Enter your 3rd subject marks");
+// var totalMarks = 300
+// var obtainedMarks = subject$1 + subject$2 + subject$3
+// var Percantage = (obtainedMarks / totalMarks)*100;
+
+// if(Percantage > 80){
+//         document.write(`
+//              Mark Sheet <br><br>
+//              Total Marks :${totalMarks}<br>
+//              Marks Obtained : ${obtainedMarks}<br>
+//              Percentage : ${Percantage}<br>
+//              Grade : A-ONE <br>
+//              Remarks : Excellent
+             
+//                 `)
+// }
+// else if(Percantage >= 70){
+//         document.write(`
+//              Mark Sheet <br><br>
+//              Total Marks :${totalMarks}<br>
+//              Marks Obtained : ${obtainedMarks}<br>
+//              Percentage : ${Percantage}<br>
+//              Grade : A <br>
+//              Remarks : Good
+             
+//                 `)
+// }
+// else if(Percantage >= 60){
+//         document.write(`
+//              Mark Sheet <br><br>
+//              Total Marks :${totalMarks}<br>
+//              Marks Obtained : ${obtainedMarks}<br>
+//              Percentage : ${Percantage}<br>
+//              Grade : B <br>
+//              Remarks : You need to improve
+             
+//                 `)
+        
+// }
+// else if(Percantage < 60){
+//         document.write(`
+//              Mark Sheet <br><br>
+//              Total Marks :${totalMarks}<br>
+//              Marks Obtained : ${obtainedMarks}<br>
+//              Percentage : ${Percantage}<br>
+//              Grade : Fail <br>
+//              Remarks : Sorry
+             
+//                 `)
+// }
+
+
+// var num = 5;
+// var user = +prompt("Enter any Number");
+
+// if(user == num){
+//         alert("Bingo! correct Answer")
+// }
+// else if(user == num+1){
+//         alert("Close enough to the correct answer")
+// }
+
+// var user = +prompt("Enter any number");
+
+// if(user % 3 == 0){
+//         alert("Your number is divisable")
+// }
+
+// var team_Name1 = prompt("Enter your team 1 name");
+// var team_Score1 = +prompt("Enter score team 1")
+// var team_Name2 = prompt("Enter your team 2 name");
+// var team_Score2 = +prompt("Enter score team 2")
+
+// if(team_Score1 > team_Score2){
+//         alert(`${team_Name1} have game won`)
+// }
+// else if(team_Score1 == team_Score2){
+//         alert(`Game is Tie`)
+// }
+// else{
+//         alert(`${team_Name2} have game won`)
+// }
+
+
+// var string =  "pakistan";
+// var num = 123;
+// var boolean = true;
+
+// alert(`Pakistan is${typeof(string)}`);
+// alert(`123 is ${typeof(num)}`);
+// alert(`true is ${typeof(boolean)}`);
+
+
+// var user = +prompt("Enter any number");
+
+// if(user % 2 == 0){
+//         alert("This number is even")
+// }
+// else{
+//         alert("This number is odd")
+// }
+
+// var day = prompt("Enter week day");
+
+// if(day == "monday"||day =="tuesday"||day =="wednessday"||day =="thuesday"||day =="friday"){
+//     alert("It's a week day")
+// }
+// else if(day == "saturday"){
+//     alert("It's a fun day")
+// }
+// else if(day == "sunday"){
+//     alert("It's a fun day")
+// }
+
+// var num1 = prompt("Enter any number ");
+// var num2 = prompt("Enter any number ");
+// if(num1 < num2){
+//     alert(`The greater number of ${num1} is ${num2}`)
+// }
+// else if(num1 == num2){
+//     alert(`The numbers equal`)
+// }
+// else{
+//     alert(`The greater number of ${num2} is ${num1}`)
+// }
+
+// var day = prompt("Enter week day");
+
+// if(day == "monday" ||day=="tuesday" ||day=="wednessday" ||day=="thuesday" ||day=="friday"){
+//     alert("It's a week day")
+// }
+// else if(day == "saturday"){
+//     alert("It's a weekend")
+// }
+// else if(day == "sunday"){
+//     alert("Yah! It's a holiday")
+// }
