@@ -866,7 +866,7 @@
 
 // var fruits = ["apple","banana","mango","orange","strawberry"];
 // for(var i =0; i<fruits.length; i++){
-    
+
 // }
 
 
@@ -1234,7 +1234,7 @@
 //              Percentage : ${Percantage}<br>
 //              Grade : A-ONE <br>
 //              Remarks : Excellent
-             
+
 //                 `)
 // }
 // else if(Percantage >= 70){
@@ -1245,7 +1245,7 @@
 //              Percentage : ${Percantage}<br>
 //              Grade : A <br>
 //              Remarks : Good
-             
+
 //                 `)
 // }
 // else if(Percantage >= 60){
@@ -1256,9 +1256,9 @@
 //              Percentage : ${Percantage}<br>
 //              Grade : B <br>
 //              Remarks : You need to improve
-             
+
 //                 `)
-        
+
 // }
 // else if(Percantage < 60){
 //         document.write(`
@@ -1268,7 +1268,7 @@
 //              Percentage : ${Percantage}<br>
 //              Grade : Fail <br>
 //              Remarks : Sorry
-             
+
 //                 `)
 // }
 
@@ -1358,3 +1358,189 @@
 // else if(day == "sunday"){
 //     alert("Yah! It's a holiday")
 // }
+
+// var user = +prompt("Enter your score");
+
+// if(user > 50 ){
+//     alert("You are passe")
+// }
+// else{
+//     alert("Try again")
+// }
+
+// var num1 = prompt("Enter any number");
+// var num2 = prompt("Enter any number");
+
+// if(num1 > num2){
+//     alert(`${num1} is greater ${num2}`)
+// }
+// else if(num2 > num1){
+//     alert(`${num2} is greater ${num1}`)
+// }
+// else{
+//     alert("Boths are equal")
+// }
+
+// var num = prompt("Enter any number");
+
+// if(num % 3 != 0){
+//     alert("Number is not divisible")
+// }
+
+// var user = prompt("Enter any number ");
+
+// if(user % 2 == 0){
+//     alert("This number is an even number")
+// }
+// else{
+//     alert("This number is an odd")
+// }
+
+
+// var age = prompt("Enter your age");
+
+// if(age > 18){
+//     alert("old enough")
+// }
+// else{
+//     alert("Too young")
+// }
+
+// var user = prompt("Enter your name");
+
+// if(user == "Akbar Raza"){
+//     alert("nice to meet you")
+// }
+
+// var day = +prompt("Enter any number for days");
+
+// switch (day){
+    
+//     case 1:
+//         alert("Today is Monday")
+//     break;
+
+//     case 2:
+//         alert("Today is Tuesday")
+//     break;
+
+//     case 3:
+//         alert("Today is Wednessday")
+//     break;
+
+//     case 1:
+//         alert("Today is Thusday")
+//     break;
+
+//     case 4:
+//         alert("Today is Friday")
+//     break;
+
+//     case 5:
+//         alert("Today is Saturday")
+//     break;
+
+//     case 6:
+//         alert("Today is Sunday")
+//     break;
+
+//     default:
+//          alert("Enter a valid week day")
+// }
+
+// var age = +prompt("Enter your age");
+
+// switch(true){
+
+//    case(age >= 15 && age <= 20):
+//            alert("Your are Eligible")
+//     break;
+
+//     case (age >= 21 && age <= 30):
+//             alert("Your are not Eligible")
+//     break;
+
+//     default:
+//         alert("Enter a valid age")
+// }
+
+
+// var num = +prompt("Enter any number for check divisible");
+
+// switch(true){
+
+//     case(num % 3 == 0):
+//          alert("Number is divisible by 3");
+//     break;
+
+//     default:
+//         alert("Number is not divisible by 3");
+// }
+
+
+// var car = prompt("Enter any thing ");
+
+// if(!isNaN(car)){
+//     alert("This is a number")
+// }
+// else if(car >= "A" && car <= "Z"){
+//     alert("This word is upper case")
+// }
+
+// else if(car >= "a" && car <= "z"){
+//     alert("This word is Lower case")
+// }
+// else{
+//     alert("This is sombal")
+// }
+
+// var num1 = +prompt("Enter any number ");
+// var num2 = +prompt("Enter any number ");
+// var operaters = prompt("Enter operater");
+
+// switch(operaters){
+
+//     case "+":
+//       alert(num1 + num2);
+//     break;
+
+//     case "+":
+//       alert(num1 + num2);
+//     break;
+
+//     case "-":
+//       alert(num1 - num2);
+//     break;
+
+//     case "*":
+//       alert(num1 * num2);
+//     break;
+
+//     case "/":
+//       alert(num1 / num2);
+//     break;
+
+//     case "%":
+//       alert(num1 % num2);
+//     break;
+
+//     default:
+//         alert("Enter valid number")
+
+// }
+
+
+var time = +prompt("Enter current time");
+
+if(time >= "0000" && time< 1200){
+    alert("Good Morning")
+}
+else if(time >= 1200 && time <1700){
+    alert("Good after noon")
+}
+else if(time >= 1700 && time < 2100){
+    alert("Good evening")
+}
+else if(time >= 2100 && time < 2359){
+    alert("Good night")
+}
