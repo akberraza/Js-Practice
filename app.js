@@ -1530,17 +1530,130 @@
 // }
 
 
-var time = +prompt("Enter current time");
+// var time = +prompt("Enter current time");
 
-if(time >= "0000" && time< 1200){
-    alert("Good Morning")
-}
-else if(time >= 1200 && time <1700){
-    alert("Good after noon")
-}
-else if(time >= 1700 && time < 2100){
-    alert("Good evening")
-}
-else if(time >= 2100 && time < 2359){
-    alert("Good night")
-}
+// if(time >= "0000" && time< 1200){
+//     alert("Good Morning")
+// }
+// else if(time >= 1200 && time <1700){
+//     alert("Good after noon")
+// }
+// else if(time >= 1700 && time < 2100){
+//     alert("Good evening")
+// }
+// else if(time >= 2100 && time < 2359){
+//     alert("Good night")
+// }
+
+// var leapYear = +prompt("Leap year check");
+
+// if((leapYear % 4 == 0 && leapYear % 100 !== 0) || (leapYear % 400 == 0)){
+//     alert(`${leapYear} is a Leap Year`)
+// }
+// else{
+//     alert(`${leapYear} is not a leap Year`)
+// }
+
+
+// var vowel = "aeiou"
+// var user = prompt("Enter any thing")
+// if(vowel.includes(user.toLowerCase())){
+//     alert("This is vowel")
+// }
+// else{
+//     alert("THis is not vowel")
+// }
+
+// var age = +prompt("Enter your age");
+// var voteAble = age < 18 ? "Too young" : "Old enough";
+// document.write(voteAble);
+
+// var age = +prompt("Enter your age");
+// var voteAble = age < 18 ? "Too young" : "Old enough";
+// alert(voteAble)
+
+// js literal notation
+
+// students[];
+
+// js object notation
+// var students = new Array()
+
+// function practice
+
+
+// function abc(){
+//     console.log("Akbar Raza");
+// }
+
+// abc();
+
+
+// function abc(name){
+//     console.log(name)
+// }
+
+// abc("Akbar Raza ")
+// abc("Akbar Raza Rizvi")
+
+
+// var arr = [];
+
+// function mypush(name){
+//    arr[arr.length]=name
+// }
+// mypush("Akbar Raza")
+// console.log(arr)
+
+// function foo(x,y,z){
+//    console.log(x,y,z)
+// }
+// foo("Akbar Raza",12345,true)
+
+// function printName(name){
+//     alert(name)
+// }
+// var name = prompt("Enter any thing");
+// printName(name);
+
+
+// function printName(name){
+//     if(name){
+//         console.log("ABCD")
+//         document.write(name)    
+//     }
+    
+// }
+
+// undefined error
+// printName(123456);
+
+// not a function error
+// var printname= "Akbar"
+// printname();
+
+// function myfun(a,b,c,d){
+//      return a + b + c + d
+// }
+// var result = myfun(10,5,20,5)
+
+// console.log(result)
+
+// function print(a,b){
+// return a * b
+// }
+// console.log(print(10,10))
+
+
+// function print(a,b){
+//   return a * b;
+// }
+// console.log(print(5,5) + 5)
+// console.log(print(5,5) + 10)
+// console.log(print(5,5) + 20)
+
+var arr = [];
+
+arr.push("Akbar Raza");
+
+console.log(arr)
