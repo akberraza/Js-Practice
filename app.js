@@ -1652,8 +1652,176 @@
 // console.log(print(5,5) + 10)
 // console.log(print(5,5) + 20)
 
-var arr = [];
+// var arr = [];
 
-arr.push("Akbar Raza");
+// arr.push("Akbar Raza");
 
-console.log(arr)
+// console.log(arr)
+
+// for(var i =0; i <5; i++){
+//     document.write(i+")Hello World" + "<br>")
+// }
+
+// for(i = 1; i<=10; i++){
+//     document.write(i+"<br>")
+// }
+
+// var table = +prompt("Enter any number for table");
+// var table2 = prompt("Enter table lenght");
+
+// for(var i = 1; i <= table2; i++){
+//     document.write(`${table} X ${i} = ${table * i} <br>`)
+// }
+
+// var mob = ["Nokia","samsumg","Apple","Sony","Huawei"];
+
+// for(var i=0; i<mob.length; i++ ){
+//     document.write(`${mob[i]} <br>`)
+// }
+
+// var fruits = ["apple","banana","mango","orange","strawberry"];
+
+// for(var i =0; i<fruits.length; i++){
+//     document.write(`${fruits[i]} <br> `)
+// }
+// for(var i=0; i<fruits.length; i++){
+//     document.write(`Element at index ${i} is ${fruits[i]} <br>`)
+// }
+
+// var items = prompt("Enter Items number");
+// var arr = [];
+
+// for(var i = 0; i <items; i++ ){
+//     var inp = prompt("Enter items name");
+//     arr.push(inp)
+// }
+// document.write(arr)
+
+// var userInp = prompt("Enter any word")
+// var check = ''
+
+// for(var i= userInp.length-1; i >= 0; i--){
+//    check += userInp[i]
+// }
+
+// if(check == userInp){
+//     document.write('word is palindrome')
+// }
+// else{
+//     document.write('word is not palindrome')
+// }
+
+// function readMore(){
+//     var text = "Hello World";
+//     var para2 = document.getElementById("para");
+//     para2.text = text
+// }
+
+
+    // function changeBackground(){
+    //     var color = +prompt("Enter any color name");
+
+    
+
+    //     return
+    // }
+
+    // changeBackground()
+
+    // function  onBulb(){
+    //     var getBulb = document.getElementById("bulb");
+    //     getBulb.src = "https://e7.pngegg.com/pngimages/922/441/png-clipart-creative-bulb-lightbulb-energy-saving-lamps-thumbnail.png"
+    // }
+
+    // function offBulb(){
+    //     var getBulb = document.getElementById("bulb");
+    //   getBulb.src ="https://cdn1.byjus.com/wp-content/uploads/2021/05/word-image8.png"
+    //     getBulb.setAttribute = ("height","30%")
+    // }
+
+    // var i ;
+    // var j ;
+    // for(i=1; i<=4; i++){
+    //     for(j=1; j<=5; j++){
+    //         document.writeln("*&nbsp;&nbsp;")
+    //     }
+    //     document.writeln("<br>")
+    // }
+
+    // var i ; 
+    // var j ;
+    // for(i=1; i<=5; i++){
+    // for(j=1; j<=i; j++){
+    //     document.writeln("*"+"&nbsp;&nbsp;")
+    // }
+    // document.writeln("<br>")
+    // }
+
+    // var i ;
+    // var j ;
+    // for(i = 1; i <= 5; i ++){
+    //     for(j=i ; j<=5; j++){
+    //   document.writeln(j+" &nbsp;&nbsp")
+    //     }
+    // document.writeln("<br>")
+    // }
+// var i ;
+// var j ;
+// for(i =1; i<=5; i++){
+//     for(j=1; j<=6-i; j++){
+//         document.writeln(j +"&nbsp;&nbsp")
+//     }
+//     document.writeln("<br>")
+// } 
+
+// for(i =1; i <=10; i++){
+//     document.writeln(i)
+// }
+
+// for(i =10; i>=1; i--){
+//     document.writeln(i)
+// }
+
+// for(i=0; i<=20; i= i+2){
+//     document.writeln(i)
+// }
+
+// for(i =1; i<=20; i=i+2){
+//     document.writeln(i)
+// }
+
+// for(i=2; i<=20; i=i+2){
+//     document.writeln(i+"k")
+// }
+
+
+// var mob = prompt("Enter your favorite mobile");
+// document.writeln(`Length of Satring ${mob.length}`)
+
+// var pak = "pakistani";
+// document.writeln(`index of 'n': ${pak.indexOf("n")}`)
+
+// var hel = "Hello World";
+// document.writeln(`Last index of 'l' : ${hel.lastIndexOf("l")}`)
+
+// var pak = "pakistani";
+// document.writeln(`character at index 3 : ${pak.charAt(3)}`)
+
+// var fb = "www.facebook.com";
+// document.writeln(fb.slice(4))
+
+// var pet = "peanuts";
+// document.writeln(pet.toUpperCase())
+
+// var js = "javascript";
+// // document.writeln(js.charAt(0).toUpperCase()+js.slice(1))
+
+// var num = 35.36;
+// document.writeln(num.join(num))
+
+// var num = 1.4;
+// document.writeln(Math.round(num))
+
+var math = Math.random();
+var num = (math * 10) + 1;
+console.log(Math.floor(num))
