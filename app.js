@@ -1822,6 +1822,165 @@
 // var num = 1.4;
 // document.writeln(Math.round(num))
 
-var math = Math.random();
-var num = (math * 10) + 1;
-console.log(Math.floor(num))
+// var math = Math.random();
+// var num = (math * 10) + 1;
+// console.log(Math.floor(num))
+
+
+// function countOccurrences1(str, letter) {
+//     let count = 0;
+//     for (let i = 0; i < str.length; i++) {
+//         if (str[i] === letter) {
+//             count++;
+//         }
+//     } 
+//     return count;
+// }
+
+// console.log(countOccurrences1('JSResourceoSo.com', 'o')); // Output: 2
+
+
+
+// function calcCircumference(radius) {
+//     let circumference = 2 * 3.1416 * radius;
+//     console.log("The circumference is " + circumference);
+// }
+
+// function calcArea(radius) {
+//     let area = 3.1416 * (radius * radius);
+//     console.log("The area is " + area);
+// }
+
+// let radius = prompt("Enter the radius of the circle:");
+// calcCircumference(radius);
+// calcArea(radius);
+
+
+// function calcCircumference(radius){
+
+//     var circumference = 2 * 3.1416 * radius;
+//     console.log("The circumference is" + circumference);
+// }
+
+
+// function calcArea(radius){
+// var area = 3.1416 * (radius * radius);
+// console.log("The area is " + area)
+// }
+
+// var radius = prompt("Enter the radius of the circle;");
+// calcCircumference(radius);
+// calcArea(radius);
+
+
+// function power(a,b){
+//    return a ** b
+// }
+// console.log(2,3)
+
+
+// var interval;
+// var count = 0;
+
+// interval = setInterval(function(){
+//     count++
+//     console.log(count)
+// },1000);
+
+// setTimeout(function(){
+//    clearInterval(interval)
+// },5000);
+
+// function date(){
+//     var time = new Date();
+//     document.write(time)
+// }
+// date();
+
+// function fullName(){
+//     var firstName = prompt("Enter your first Name");
+//     var lastName = prompt("Enter your last Name");
+//     console.log(`Hello ${firstName + " " + lastName} welcome`)
+// }
+
+// fullName();
+
+// function sum(){
+//     var num1 = +prompt("Enter any number");
+//     var num2 = +prompt("Enter any number");
+//     console.log(num1 +num2)
+// }
+// sum();
+
+
+// function result(num1,num2,operater){
+//     var final = "";
+
+//    if(operater == "+"){
+//     final = num1 + num2
+//    }
+//    else if(operater == "-"){
+//     final = num1 - num2
+//    }
+//    else if(operater == "/"){
+//     final = num1 / num2
+//    }
+//    else if(operater == "*"){
+//     final = num1 * num2
+//    }
+//    else{
+//     final = "Enter a valid inputs"
+//    }
+//    document.body.innerHTML = final
+//    return
+// }
+
+// var num1 = +prompt("Enter any number");
+// var num2 = +prompt("Enter any number");
+// var operater = prompt("Enter any operator");
+// result(num1,num2,operater);
+
+
+// function square(x){
+//    return x ** 2
+// }
+// console.log(square(10))
+
+// function result(x){
+// var ab = 1;
+// for(var i = 2; i <=x; i++){
+//     ab *= x;
+// }
+// return  ab;
+// }
+// console.log(result(5))
+
+// function counting(){
+//    var num1 = +prompt("enter any number")
+//    var num2 = +prompt("enter any number")
+//     var result = " ";
+//       if(num1 > num2){
+//        alert("Enter a valid number")
+//       }
+
+//    for(var i = num1; i <= num2; i++){
+//    result += i
+// }
+// console.log(result);
+// return
+// }
+// counting();
+
+
+// function hypotenies(base,perpandiculor){
+//    function calculate(number){
+//     return number * number
+//    }
+
+//    var hypoteniesquare  = calculate(base) + calculate(perpandiculor);
+//    return Math.sqrt(hypoteniesquare);
+// }
+// var base = 3;
+// var perpandiculor = 4;
+// console.log(hypotenies(base,perpandiculor))
+
