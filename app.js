@@ -1415,7 +1415,7 @@
 // var day = +prompt("Enter any number for days");
 
 // switch (day){
-    
+
 //     case 1:
 //         alert("Today is Monday")
 //     break;
@@ -1622,7 +1622,7 @@
 //         console.log("ABCD")
 //         document.write(name)    
 //     }
-    
+
 // }
 
 // undefined error
@@ -1718,53 +1718,53 @@
 // }
 
 
-    // function changeBackground(){
-    //     var color = +prompt("Enter any color name");
+// function changeBackground(){
+//     var color = +prompt("Enter any color name");
 
-    
 
-    //     return
-    // }
 
-    // changeBackground()
+//     return
+// }
 
-    // function  onBulb(){
-    //     var getBulb = document.getElementById("bulb");
-    //     getBulb.src = "https://e7.pngegg.com/pngimages/922/441/png-clipart-creative-bulb-lightbulb-energy-saving-lamps-thumbnail.png"
-    // }
+// changeBackground()
 
-    // function offBulb(){
-    //     var getBulb = document.getElementById("bulb");
-    //   getBulb.src ="https://cdn1.byjus.com/wp-content/uploads/2021/05/word-image8.png"
-    //     getBulb.setAttribute = ("height","30%")
-    // }
+// function  onBulb(){
+//     var getBulb = document.getElementById("bulb");
+//     getBulb.src = "https://e7.pngegg.com/pngimages/922/441/png-clipart-creative-bulb-lightbulb-energy-saving-lamps-thumbnail.png"
+// }
 
-    // var i ;
-    // var j ;
-    // for(i=1; i<=4; i++){
-    //     for(j=1; j<=5; j++){
-    //         document.writeln("*&nbsp;&nbsp;")
-    //     }
-    //     document.writeln("<br>")
-    // }
+// function offBulb(){
+//     var getBulb = document.getElementById("bulb");
+//   getBulb.src ="https://cdn1.byjus.com/wp-content/uploads/2021/05/word-image8.png"
+//     getBulb.setAttribute = ("height","30%")
+// }
 
-    // var i ; 
-    // var j ;
-    // for(i=1; i<=5; i++){
-    // for(j=1; j<=i; j++){
-    //     document.writeln("*"+"&nbsp;&nbsp;")
-    // }
-    // document.writeln("<br>")
-    // }
+// var i ;
+// var j ;
+// for(i=1; i<=4; i++){
+//     for(j=1; j<=5; j++){
+//         document.writeln("*&nbsp;&nbsp;")
+//     }
+//     document.writeln("<br>")
+// }
 
-    // var i ;
-    // var j ;
-    // for(i = 1; i <= 5; i ++){
-    //     for(j=i ; j<=5; j++){
-    //   document.writeln(j+" &nbsp;&nbsp")
-    //     }
-    // document.writeln("<br>")
-    // }
+// var i ; 
+// var j ;
+// for(i=1; i<=5; i++){
+// for(j=1; j<=i; j++){
+//     document.writeln("*"+"&nbsp;&nbsp;")
+// }
+// document.writeln("<br>")
+// }
+
+// var i ;
+// var j ;
+// for(i = 1; i <= 5; i ++){
+//     for(j=i ; j<=5; j++){
+//   document.writeln(j+" &nbsp;&nbsp")
+//     }
+// document.writeln("<br>")
+// }
 // var i ;
 // var j ;
 // for(i =1; i<=5; i++){
@@ -1984,3 +1984,198 @@
 // var perpandiculor = 4;
 // console.log(hypotenies(base,perpandiculor))
 
+// var jsmin = 0
+// var jssec = 0
+// var jsmsec = 0
+// var mins = document.getElementById('min')
+// var secs = document.getElementById('sec')
+// var msecs = document.getElementById('msec')
+// var interval;
+
+
+// function start() {
+
+// interval = setInterval(function () {
+//     jsmsec++
+//     msecs.innerHTML = jsmsec
+//     if (jsmsec >= 100) {
+//         jssec++
+//         secs.innerHTML = jssec
+//         jsmsec = 0
+//     }
+//     else if (jssec >= 10) {
+//         jsmin++
+//         mins.innerHTML = jsmin
+//         jssec = 0
+//     }
+// }, 10)
+
+// document.getElementById('btn').disabled = true
+
+// document.body.style.backgroundColor = "white"
+
+// }
+
+
+// function stop() {
+//     clearInterval(interval);
+//     document.getElementById('btn').disabled = false;
+//     document.body.style.background = "yellow";
+
+//     // Change background color of watch and buttons
+//     document.getElementById('watch-container').style.backgroundColor = "lightgray";
+//     document.getElementById('btn').style.backgroundColor = "red";
+//     document.getElementById('stop-btn').style.backgroundColor = "blue";
+//     document.getElementById('reset-btn').style.backgroundColor = "green";
+// }
+
+// function reset() {
+//     jsmin = 0;
+//     jsmsec = 0;
+//     jssec = 0;
+//     mins.innerHTML = jsmin;
+//     secs.innerHTML = jssec;
+//     msecs.innerHTML = jsmsec;
+//     clearInterval(interval);
+//     document.getElementById('btn').disabled = false;
+//     document.body.style.background = "yellow";
+
+//     // Change background color of watch and buttons
+//     document.getElementById('watch-container').style.backgroundColor = "white";
+//     document.getElementById('btn').style.backgroundColor = "gray";
+//     document.getElementById('stop-btn').style.backgroundColor = "orange";
+//     document.getElementById('reset-btn').style.backgroundColor = "purple";
+// }
+
+
+// function stop() {
+//     clearInterval(interval);
+//     document.getElementById('btn').disabled = false;
+//     document.body.style.background = "yellow";
+
+//     // Change background color of watch and buttons
+//     document.getElementById('watch-container').style.backgroundColor = "lightgray";
+//     document.getElementById('btn').style.backgroundColor = "red";
+//     document.getElementById('stop-btn').style.backgroundColor = "blue";
+//     document.getElementById('reset-btn').style.backgroundColor = "green";
+// }
+
+// function reset() {
+//     jsmin = 0;
+//     jsmsec = 0;
+//     jssec = 0;
+//     mins.innerHTML = jsmin;
+//     secs.innerHTML = jssec;
+//     msecs.innerHTML = jsmsec;
+//     clearInterval(interval);
+//     document.getElementById('btn').disabled = false;
+//     document.body.style.background = "yellow";
+
+//     // Change background color of watch and buttons
+//     document.getElementById('watch-container').style.backgroundColor = "white";
+//     document.getElementById('btn').style.backgroundColor = "gray";
+//     document.getElementById('stop-btn').style.backgroundColor = "orange";
+//     document.getElementById('reset-btn').style.backgroundColor = "purple";
+// // }
+
+// function foo(){
+//     var getParas = document.getElementsByTagName('p')
+//    for(var i=0; i < getParas.length; i++){
+//     getParas[i].className = 'abc'
+
+//         getParas[i].style.backgroundColor = 'black'
+//         getParas[i].style.color = 'white'
+//         getParas[i].style.color = 'white'
+//    }
+// }
+
+
+// var timer;
+// var milliseconds = 0, seconds = 0, minutes = 0, hours = 0;
+// var running = false;
+
+// function startTimer(){
+//     if(!running){
+//         running = true;
+//         timer = setInterval(updateTimer,10);
+//         document.getElementById("startBtn").style.display = "none";
+//         document.getElementById("stopBtn").style.display = "inline";
+//         document.getElementById("resatBtn").style.display = "inline";
+//     }
+// }
+
+// function stopTimer(){
+//     clearInterval(timer);
+//     running = false;
+//     document.getElementById("startBtn2").style.display = "inline";
+//     document.getElementById("stopBtn").style.display = "none";
+//     document.getElementById("startBtn2").style.backgroundColor = "#ffcd6c";
+//     document.getElementById("resatBtn").style.backgroundColor = "#ffcd6c"
+//     document.body.style.backgroundColor = "#ffeed9"
+//     document.getElementById("outer-circle").style.backgroundColor = "#f0e0cb";
+//     document.getElementById("inner-circle").style.backgroundColor = "#ffeed9"
+    
+// }
+
+// function startTimer2(){
+//     if(!running){
+//         running = true; 
+//         timer = setInterval(updateTimer,10);
+//         document.getElementById("stopBtn").style.display = "inline";
+//         document.getElementById("startBtn2").style.display = "none";
+//         document.getElementById("stopBtn").style.backgroundColor = "#0b57d0"
+//         document.getElementById("resatBtn").style.backgroundColor = "#0b57d0"
+//         document.body.style.backgroundColor = "#e5edff";
+//         document.getElementById("outer-circle").style.backgroundColor = "#a3c5ff"
+//         document.getElementById("inner-circle").style.backgroundColor = "#e5edff"
+//         }
+// }
+
+// function resatTimer(){
+//     clearInterval(timer);
+//     running = false;
+//     milliseconds  = 0;
+//     seconds = 0;
+//     minutes = 0;
+//     hours = 0;
+//     document.getElementById("display").innerHTML = "00:00:00:000";
+//     document.getElementById("startBtn").style.display = "inline"
+//     document.getElementById("stopBtn").style.display = "none";
+//     document.getElementById("startBtn2").style.display = "none";
+//     document.getElementById("resatBtn").style.display = "none";
+//     document.getElementById("stopBtn").style.backgroundColor = "#0b57d0"
+//     document.getElementById("resatBtn").style.backgroundColor = "#0b57d0"
+//     document.body.style.backgroundColor = "#e5edff";
+//     document.getElementById("outer-circle").style.backgroundColor = "#a3c5ff"
+//     document.getElementById("inner-circle").style.backgroundColor = "#e5edff"
+
+// }
+
+// function updateTimer(){
+//     milliseconds += 10;
+//     if(milliseconds == 1000){
+//         milliseconds = 0;
+//         seconds++;
+//         if(seconds == 60){
+//             seconds = 0;
+//             minutes++;
+//             if(minutes == 60){
+//                  minutes = 0;
+//                  hours++
+//             }
+//         }
+//     }
+
+//     var displayTime =
+//     (hours < 10 ? "0" + hours : hours) + ":" +
+//     (minutes < 10 ? "0" + minutes : minutes) + ":" +
+//     (seconds < 10 ? "0" + seconds : seconds) + ":" +
+//     (milliseconds < 100 ? (milliseconds < 10 ? "00" + milliseconds: "0" + milliseconds):milliseconds);
+//     document.getElementById("display").innerHTML = displayTime;
+// }
+
+
+// function time(){
+//     var showDate = new Date();
+//     document.getElementById("date&Time").innerHTML = showDate;
+// }
