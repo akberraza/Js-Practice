@@ -2651,3 +2651,133 @@
 // var user = +prompt("Enter radius of circle");
 // calcCircumference(user)
 // calcArea(user)
+
+
+// function power(a,b){
+//   return a**b;
+// }
+// console.log(power(2,3))
+
+
+// function cheackLeapYear(year){
+   
+//     if((year % 4 ==0 && year % 100 !== 0)||(year % 400 ==0)){
+//         alert("This is a Leap Year")
+//     }
+//     else{
+//         alert("This is Not a Leap Year")
+//     }
+//     return
+// }
+// var year = prompt("Enter any Year");
+// cheackLeapYear(year)
+
+
+// function foo(){
+//  var a = document.getElementById('inp');
+//  var b = a.getAttribute("name");
+//  console.log(b)
+// }
+
+
+// function foo(){
+//    var a = document.getElementById("inp");
+//   var b = a.hasAttribute("name");
+//   console.log(b)
+// }
+
+// function foo(){
+//  var a = document.getElementById("inp");
+//   var b = a.setAttribute("class","aaa");
+//   console.log(b)
+// }
+
+// function foo(){
+//   var a = document.getElementById("inp");
+//   document.body.setAttribute("class","aaa");
+//   console.log(b)
+// }
+
+
+// function calculate(a,b){
+// return a**b
+// }
+// console.log(calculate(2,3))
+
+// function cheackLeapYear(year){
+//     if((year % 4 == 0 && year % 100 !== 0)||year % 400 == 0){
+//         alert(`${year} is a Leap Year`)
+//     }
+//     else{
+//         alert(`${year} is  Not a Leap Year`)
+//     }
+//     return;
+// }
+// var year = prompt("Enter any year for check leap or Not")
+// cheackLeapYear(year)
+
+
+
+// function calculateSemiparimeter(a,b,c){
+//    return (a+b+c) / 2;
+// }
+
+// function traingleArea(a,b,c){
+//     var s = calculateSemiparimeter(a,b,c);
+//     return Math.sqrt(s * (s-a)*(s-b)*(s-c));
+// }
+
+// var a = 7, b = 10, c = 5;
+// console.log(traingleArea(a,b,c))
+
+
+// function semi(a,b,c){
+//   return   (a+b+c) / 2
+// }
+
+// function traingleArea(a,b,c){
+//     var s = semi(a,b,c);
+//  return   Math.sqrt(s*(s-a)*(s-b)*(s-c))
+// }
+
+// var a = 6, b = 7, c = 8;
+// console.log(traingleArea(a,b,c))
+
+
+// function semiParimeter(a,b,c){
+//   return  (a+b+c) / 2
+// }
+
+// function calculateArea(a,b,c){
+//   var s = semiParimeter(a,b,c);
+//   return   Math.sqrt(s*(s-a)*(s-b)*(s-c))
+// }
+
+// var a = 6, b = 7, c = 8;
+// console.log(calculateArea(a,b,c))
+
+
+// function calculateAverage(m1,m2,m3){
+//  return  (m1 + m2 + m3) / 3
+// }
+
+// function calculatePercentage(m1,m2,m3,totalMarks){
+//     var obtainedMarks =  m1 + m2 + m3;
+//     var marks =  totalMarks * 3
+//     return    (obtainedMarks / marks)* 100
+// }
+
+// function mainFunction(){
+//     var m1 = 85, m2 = 90, m3 = 70;
+//     var totalMarks = 100;
+
+//   var avg = Math.floor(calculateAverage(m1,m2,m3));
+//   var per = Math.floor(calculatePercentage(m1,m2,m3,totalMarks));
+
+//   console.log(`Average = ${avg}`);
+//   console.log(`percentage = ${per}%`)
+// }
+
+// mainFunction()
+
+  
