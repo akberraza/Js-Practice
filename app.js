@@ -2114,7 +2114,7 @@
 //     document.body.style.backgroundColor = "#ffeed9"
 //     document.getElementById("outer-circle").style.backgroundColor = "#f0e0cb";
 //     document.getElementById("inner-circle").style.backgroundColor = "#ffeed9"
-    
+
 // }
 
 // function startTimer2(){
@@ -2265,21 +2265,21 @@
 // console.log(factorial(10))
 
 
-    // function counting(start,end){
-    //     if(start>end){
-    //         alert("Enter a valid Number");
-    //         return;
-    //     }
+// function counting(start,end){
+//     if(start>end){
+//         alert("Enter a valid Number");
+//         return;
+//     }
 
-    //     var result = "<h3>Countaing</h3>";
-    //     for(var i =start; i<=end; i++){
-    //        result += i + "<br>";
-    //     }
-    //     document.body.innerHTML = result
-    // }
-    // var num1 = +prompt("Enter start Number");
-    // var num2 = +prompt("Enter end Number");
-    // counting(num1,num2)
+//     var result = "<h3>Countaing</h3>";
+//     for(var i =start; i<=end; i++){
+//        result += i + "<br>";
+//     }
+//     document.body.innerHTML = result
+// }
+// var num1 = +prompt("Enter start Number");
+// var num2 = +prompt("Enter end Number");
+// counting(num1,num2)
 
 
 
@@ -2303,7 +2303,7 @@
 //     function calculateSquare(number) {
 //         return number * number;
 //     }
-    
+
 //     let hypotenuseSquared = calculateSquare(base) + calculateSquare(perpendicular);
 //     return Math.sqrt(hypotenuseSquared);
 // }
@@ -2398,9 +2398,9 @@
 // function countLetterOccurrences(str, letter) {
 //       return str.split(letter).length - 1;
 //     }
-    
+
 //     document.write(countLetterOccurrences('JSResourceS.com', 'o'));
-    
+
 
 // function findLetters(str,letter){
 //    var count = 0;
@@ -2499,7 +2499,7 @@
 
 
 // function operation(num1,num2,operater){
-   
+
 //     result;
 //     switch(operater){
 
@@ -2521,7 +2521,7 @@
 
 
 // function compute(a){
-  
+
 //     var count = 1;
 //   for(var i = a; i<=5; i++){
 //      count *= i
@@ -2546,7 +2546,7 @@
 //     } 
 
 //     document.body.innerHTML = result
-    
+
 // }
 
 // var num1 = +prompt("Enter 1st number");
@@ -2660,7 +2660,7 @@
 
 
 // function cheackLeapYear(year){
-   
+
 //     if((year % 4 ==0 && year % 100 !== 0)||(year % 400 ==0)){
 //         alert("This is a Leap Year")
 //     }
@@ -2780,4 +2780,331 @@
 
 // mainFunction()
 
+
+// function percentage(){
+
+//     var m1 = 70, m2 = 80, m3 = 90;
+//     var totalMarksperSubject = 100;
+
+//    var avgerage = (m1 + m2 + m3) / 3;
+
+//    var obtainedMarks = m1 + m2 + m3;
+//    var totalMarks = totalMarksperSubject * 3;
+//    var percentage = (obtainedMarks/totalMarks) * 100;
+
+//    console.log(`Average = ${avgerage}`);
+//    console.log(`percentage = ${percentage}%`)
+// }
+
+// percentage()
+
+
+// function calculateAverage(m1,m2,m3){
+//   return  (m1+m2+m3) / 3
+// }
+
+// function calculatePercantage(m1,m2,m3,totalMarksperSubject){
+//   var obtainedMarks =  m1 + m2 + m3;
+//   var totalMarks = totalMarksperSubject* 3;
+//     return (obtainedMarks/totalMarks) * 100
+// }
+
+// function mainFunction(){
+//     var m1 = 90, m2 = 70, m3 = 80;
+//     var totalMarksperSubject = 100;
+
+//     var avg = Math.floor(calculateAverage(m1,m2,m3));
+//     var per = Math.floor(calculatePercantage(m1,m2,m3,totalMarksperSubject));
+
+//     console.log(`Average = ${avg}`);
+//     console.log(`Percantage = ${per}%`);
+// }
+
+// mainFunction()
+
+
+// document.getElementById("signupForm").onsubmit = function(event) {
+//     event.preventDefault(); 
+
+//     var name = document.getElementById("name").value;
+//     var email = document.getElementById("email").value;
+
+//     document.getElementById("output").innerHTML = "✅ <strong>Name:</strong> " + name + "<br>📧 <strong>Email:</strong> " + email;
+// };
+
+
+// function character(str,chr){
+//  for(var i = 0; i < str.length; i++){
+//     if(str[i] == chr){
+//         return i;
+//     }
+//  }
+//  return -1;
+// }
+// console.log(character("Hello","o"))
+
+
+// function removeVovels(str){
+//     var result = '';
+//    for(var i = 0; i < str.length; i++){
+//        var char = str[i];
+//        if(!"aeiouAEIOU".includes(char)){
+//           result += char;
+//        }
+//    }
+//    return result;
+// }
+// console.log(removeVovels("I am Akbar Raza"));
+
+// function removeVovels(str){
+//      var result = '';
+//     for(var i = 0; i<str.length; i++){
+//       var char = str[i];
+//       if(!"aeiouAEIOU".includes(char)){
+//             result += char;
+//       }
+//     }
+//     return result; 
+// }
+// console.log(removeVovels("Hello World"))
+
+// function countVowelPairs(text) {
+//     let count = 0;
+//     const vowels = "aeiou";
+
+//     for (let i = 0; i < text.length - 1; i++) {
+//         let pair = text[i].toLowerCase() + text[i + 1].toLowerCase();
+
+//         switch (true) {
+//             case vowels.includes(text[i].toLowerCase()) && vowels.includes(text[i + 1].toLowerCase()):
+//                 count++;
+//                 console.log(`Found: ${pair}`);
+//                 break;
+//         }
+//     }
+
+//     return count;
+// }
+
+// let sentence = "Pleases read this application and give me gratuity";
+// console.log("Total Vowel Pairs:", countVowelPairs(sentence));
+
+
+// function vowelPirs(str) {
+//     count = 0;
+//     vowel = "aeiou"
+//     for (var i = 0; i < str.length - 1; i++) {
+//         var pair = str[i].toLowerCase() + str[i + 1].toLowerCase();
+
+//         switch (true) {
+//             case vowel.includes(str[i].toLowerCase()) && vowel.includes(str[i + 1].toLowerCase()):
+//                 count++;
+//                 console.log(`Found : ${pair}`)
+//                 break;
+//         }
+//     }
+//     return count;
+// }
+
+// var str = "Elon Reeve Musk (/ˈiːlɒn/ EE-lon; born June 28, 1971) is a businessman known for his key roles in Tesla, SpaceX, and Twitter (which he rebranded as X). Since 2025, he has been a senior advisor to United States president Donald Trump and the de facto head of the Department of Government Efficiency (DOGE). Musk is the wealthiest person in the world; as of March 2025, Forbes estimates his net worth to be $320 billion USD.";
+// console.log(vowelPirs(str))
+
+
+// function convertToMeters(km) {
+//     return km * 1000;
+// }
+
+// function convertToFeet(km) {
+//     return km * 3280.84;
+// }
+
+// function convertToInches(km) {
+//     return km * 39370.1;
+// }
+
+// function convertToCentimeters(km) {
+//     return km * 100000;
+// }
+
+// let km = parseFloat(prompt("Do cities ka distance (km mein) enter karein: "));
+
+// if (!isNaN(km) && km > 0) {
+//     console.log(`Distance in Meters: ${convertToMeters(km)} m`);
+//     console.log(`Distance in Feet: ${convertToFeet(km)} ft`);
+//     console.log(`Distance in Inches: ${convertToInches(km)} in`);
+//     console.log(`Distance in Centimeters: ${convertToCentimeters(km)} cm`);
+// } else {
+//     console.log("Ghalat input! Sirf positive number enter karein.");
+// }
+
+
+// function convertToMeters(km){
+//     return km * 1000
+// }
+
+// function convertToFeet(km){
+//     return km * 3280.84
+// }
+
+// function convertToInches(km){
+//       return km * 39370.1
+// }
+
+// function covertToCentiMeters(km){
+//     return km * 100000
+// }
+
+// var user = +prompt("Enter Distance between Two cities")
+
+// if(!isNaN(user) && user > 0){
+// console.log(`Meters : ${convertToMeters(user)}`)
+// console.log(`Feet : ${convertToFeet(user)}`)
+// console.log(`Inches : ${convertToInches(user)}`)
+// console.log(`Centimeters : ${covertToCentiMeters(user)}`)
+// }
+// else{
+//     alert("Enter a valid Input")
+// }
+
+
+// function calculateOvertimePay(hoursWorked) {
+//      const regularHours = 40;
+//      const overtimeRate = 12.00;
+       
+//      if (hoursWorked > regularHours) {
+//          let overtimeHours = hoursWorked - regularHours;
+//          let overtimePay = overtimeHours * overtimeRate;
+//          return overtimePay;
+//      } else {
+//          return 0;
+//      }
+//  }
+ 
+//  const hoursWorked = parseInt(prompt("Enter hours worked: "), 10);
+//  if (!isNaN(hoursWorked) && hoursWorked >= 0) {
+//      let overtimePay = calculateOvertimePay(hoursWorked);
+//      console.log("Overtime Pay: Rs.", overtimePay.toFixed(2));
+//  } else {
+//      console.log("Invalid input. Please enter a valid number of hours.");
+//  }
+ 
+
+// function calculateOverTimePay(workHorus){
   
+//     var workTime = 40;
+//     var overTimeRate = 12.00;
+
+//     if(workHorus > workTime){
+//         var overtime = workHorus - workTime;
+//         var pay = overtime * overTimeRate;
+//         return pay;
+//     }
+//     else{
+//         return 0;
+//     }
+// }
+
+// var workHorus = +prompt("Enter Work Hours");
+
+// if(!isNaN(workHorus) && workHorus >= 0){
+//     var overtimePay = calculateOverTimePay(workHorus);
+//     console.log(overtimePay);
+// }else{
+//     alert("Enter valid input");
+// }
+
+
+// function calculateNotes(amount) {
+//     if (amount % 100 !== 0) {
+//         alert("Amount should be in hundreds.");
+//         return;
+//     }
+    
+//     let notes100 = Math.floor(amount / 100);
+//     let remaining = amount % 100;
+    
+//     let notes50 = Math.floor(remaining / 50);
+//     remaining = remaining % 50;
+    
+//     let notes10 = Math.floor(remaining / 10);
+    
+//     console.log(`100s: ${notes100}, 50s: ${notes50}, 10s: ${notes10}`);
+// }
+
+// let amount = 80000; 
+// calculateNotes(amount);
+
+
+// function calculateNotes(amount){
+//    if(amount % 10 !== 0){
+//     alert("Amount should be in hundreds.");
+//     return;
+//    }
+ 
+//    var notes100 = amount / 100;
+//    var remaining = amount % 100;
+
+//    var notes50 = remaining / 50;
+//    var remaining = remaining % 50;
+
+//   var notes10 = remaining / 10;
+
+//   console.log(`100s ${notes100},  50s ${notes50}, 10s${notes10}`)
+
+// }
+
+// var amount = 160;
+// calculateNotes(amount);
+
+
+function calculateNotes(amount){
+   if(amount % 100 !== 0){
+    alert("Amount should Be in 100");
+    return;
+   }
+
+   var notes100 = amount / 100;
+   var remaining = amount % 100;
+
+   var notes50 = amount / 50;
+  var remaining = remaining % 50;
+
+  var notes10 = remaining / 10;
+
+  console.log(notes100,notes50,notes10);
+}
+
+var amount = 100;
+calculateNotes(amount);
+
+// document.writeln(document.childNodes[1].childNodes[0].childNodes[9].textContent = "Akbar Raza");
+
+// var getUl = document.getElementById("ul");
+// console.log(getUl.lastChild.textContent = "Akbar Raza");
+
+
+    // var getUl = document.querySelector("#ul");
+    // var getinp = document.querySelector("#inp");
+
+    // function addBtn(){
+
+    //     if(getinp.value == ""){
+    //         alert("Enter some Vlue in input")
+    //     }else{
+    //     getUl.innerHTML += `<li>${getinp.value} <button onclick="edit(this)"><i class='fa-solid fa-trash'></i></button><button onclick="detlet(this)"><i class='fa-solid fa-trash'></i></button></li> `;
+    //     getinp.value = ""
+    //     }
+    // }
+
+    // function delAll(){
+    //     getUl.innerHTML = " ";
+    // }
+
+    // function edit(a){
+    // var pro = prompt("Enter Edit Item",a.parentNode.firstChild.textContent);
+    // a.parentNode.firstChild.textContent = pro;
+    // }
+
+    // function detlet(a){
+    // a.parentNode.remove()
+    // }
