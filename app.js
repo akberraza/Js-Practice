@@ -3057,25 +3057,25 @@
 // calculateNotes(amount);
 
 
-function calculateNotes(amount){
-   if(amount % 100 !== 0){
-    alert("Amount should Be in 100");
-    return;
-   }
+// function calculateNotes(amount){
+//    if(amount % 100 !== 0){
+//     alert("Amount should Be in 100");
+//     return;
+//    }
 
-   var notes100 = amount / 100;
-   var remaining = amount % 100;
+//    var notes100 = amount / 100;
+//    var remaining = amount % 100;
 
-   var notes50 = amount / 50;
-  var remaining = remaining % 50;
+//    var notes50 = amount / 50;
+//   var remaining = remaining % 50;
 
-  var notes10 = remaining / 10;
+//   var notes10 = remaining / 10;
 
-  console.log(notes100,notes50,notes10);
-}
+//   console.log(notes100,notes50,notes10);
+// }
 
-var amount = 100;
-calculateNotes(amount);
+// var amount = 100;
+// calculateNotes(amount);
 
 // document.writeln(document.childNodes[1].childNodes[0].childNodes[9].textContent = "Akbar Raza");
 
@@ -3108,3 +3108,39 @@ calculateNotes(amount);
     // function detlet(a){
     // a.parentNode.remove()
     // }
+
+
+//     var inputBox = document.querySelector("#input-box");
+//     var listContainer = document.querySelector("#list-container");
+
+//     function addTask(){
+
+//          if(inputBox.value == ""){
+//           alert("Enter some value in input")
+//          }
+//          else{
+//              listContainer.innerHTML += `
+//               <li>
+//                ${inputBox.value} 
+//                <button onclick="edit(this)" class="btn">Edit</button>
+//                <button onclick="detelet(this)" class="btn">Delete</button>
+//               </li>
+//              `
+//             inputBox.value = "";
+//          }
+//     }
+
+// function deleteAll(){
+//   listContainer.innerHTML = ""; 
+// }
+
+// function edit(a){
+//      var pro = prompt("Enter Edite Item",a.parentNode.firstChild.textContent);
+//     a.parentNode.firstChild.textContent = pro;
+// }
+
+// function detelet(a){
+//   a.parentNode.remove()
+//   }
+
+
