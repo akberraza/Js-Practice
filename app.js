@@ -3144,3 +3144,312 @@
 //   }
 
 
+// var raza = {
+//   R_No: "01",
+//   Name: "Akbar",
+//   institue: "Sylani"
+// }
+// for (var obj in raza) {
+//    document.writeln(`${obj} : ${raza[obj]} <br>`)
+// }
+
+
+// var data = {
+//   R_No: "01",
+//   Name: "Akbar Raza",
+//   Father_Name: "Asghar Hameed",
+//   institute: "Saylani Mass IT Traning"
+// }
+// for (const key in data) {
+//   document.writeln(key + ": " + data[key] + "<br>")
+// }
+
+// var student = {
+//     s_No: "01",
+//     s_Name: "Akbar Raza",
+//     s_Institute: "Saylani Mass It Traning",
+//     s_Hobbies: ["Army","War","Books Study"]
+// }
+
+// for (var key in student) {
+//      if(key == "s_Hobbies"){
+//         for(var i = 0; i < student.s_Hobbies.length; i++){
+//             document.writeln(key + " : " + student[key][i] + "<br>")
+//         }
+//      }
+//      else{
+//         document.writeln(key + " : " + student[key] + "<br>")
+//      }
+
+// }
+
+
+// var student = {
+//     s_NO: "01",
+//     s_Name: "Akbar Raza",
+//     s_Institute: "Saylani Mass IT Traning",
+//     foo: function(){
+//         return  this.s_NO + "<br>" + this.s_Name + "<br>" + this.s_Institute
+//     },
+
+//     work: function(){
+//     alert("HellO Akbar Raza")
+//     }
+// }
+
+// console.log(student.work())
+
+
+// var car = new Object();
+// car.modle = "2024";
+// car.name = "mehran";
+// car.color = "white";
+
+// document.writeln(car)
+
+// for (var key in car) {
+//      document.writeln(key + " : " + car[key] + "<br>")
+// }
+
+// function Student(id,name,age,roll){
+//     this.id = id,
+//     this.name = name,
+//     this.age = age,
+//     this.roll = roll
+// }
+
+// var s1 = new Student(1,"Akbar",21,1234);
+// var s2 = new Student(2,"Asjad Raza",50,12344);
+
+// console.log(s2)
+
+// function Student(id,name,age,roll){
+//     this.id = id,
+//     this.name = name,
+//     this.age = age,
+//     this.roll = roll
+// }
+
+// var s1 = new Student(101,"Akbar Raza",18,34);
+// var s2 = new Student(111, "Hamza",30,10);
+
+// document.writeln(s1);
+// document.writeln(s2)
+
+// var i = 1;
+// while(i <= 5){
+//     document.writeln(i);
+//     i++
+// }
+
+// var i = 1;
+// while(i <= 10){
+//     document.writeln(i + "<br>");
+//     i++;
+// }
+
+// var i = 2;
+// while(i <= 20){
+//     document.writeln(i + "<br>");
+//     i += 2;
+// }
+
+/*var i = 1;
+while(i <= 30){
+    document.writeln(i + "<br>");
+    i += 2
+}*/
+
+// var number = 1;
+// var sum = 0;
+// while(number <= 100){
+//   sum +=  number;
+//   number++;
+// }
+// document.writeln(sum);
+
+// var number = 1;
+// var sum = 0;
+
+// while(number <= 10){
+//    sum += number; 
+//    number++; 
+// }
+// document.writeln(sum);
+
+
+// var num = +prompt("Enter number");
+// var limit = +prompt("Enter limit");
+// var i = 1;
+
+// while(i <= limit){
+//     document.writeln(`${num} x ${i} = ${num * i} <br>`);
+//     i++; 
+// }
+
+// var number = 1;
+// var count = 0;
+
+// while(number !== 0){
+//    number = Math.floor(number/10);
+//    count++;
+// }
+// document.writeln(count)
+
+// var inp_Num = 122334431333;
+// var store = 0;
+
+// while(inp_Num !== 0){
+//   inp_Num =  Math.floor(inp_Num / 10);
+//   store++;
+// }
+// document.writeln(store);
+
+/*var intiger = 12345;
+var revers = 0;
+
+while(intiger > 0){
+    revers += intiger
+    intiger--
+}
+document.writeln(revers)*/
+
+// function show() {
+
+//     document.getElementById('hide').style.display = 'block'
+//     document.getElementById('para').style.display = 'block'
+//     document.getElementById('show').style.display = 'none'
+
+// }  
+
+
+// function  readMore(){
+//   document.querySelector("#show").style.display = 'none';
+//   document.querySelector("#hide").style.display = 'block';
+//   document.querySelector("#para").style.display = "block"
+// }
+
+
+//  function checkAddress(fieldId) {
+//      if (document.getElementById(fieldId).value === "") {
+//      alert("Email address required.");
+//      }
+// } 
+    
+
+/*function checkAddress(fieldId, fieldName) {
+    var value = document.getElementById(fieldId).value;
+    if (value.trim() === "") {
+      alert(fieldName + " is required.");
+      return false;
+    }
+    return true;
+  }
+
+  function validateForm() {
+    if (!checkAddress('name', 'Name')) return false;
+    if (!checkAddress('email', 'Email')) return false;
+    if (!checkAddress('phone', 'Phone')) return false;
+
+    var name = document.getElementById('name').value;
+    var email = document.getElementById('email').value;
+    var phone = document.getElementById('phone').value;
+
+    var outputDiv = document.getElementById('output');
+    var newEntry = `
+      <div class="entry">
+        <p><strong>Name:</strong> ${name}</p>
+        <p><strong>Email:</strong> ${email}</p>
+        <p><strong>Phone:</strong> ${phone}</p>
+      </div>
+    `;
+
+    outputDiv.innerHTML += newEntry;
+
+    document.getElementById('name').value = "";
+    document.getElementById('email').value = "";
+    document.getElementById('phone').value = "";
+
+    return false;
+  }*/
+
+
+   /* function checkField(id, label) {
+        const value = document.getElementById(id).value.trim();
+        if (value === "") {
+          alert(label + " is required.");
+          return false;
+        }
+        return true;
+      }
+    
+      function handleSubmit() {
+        if (!checkField("name", "Name")) return false;
+        if (!checkField("email", "Email")) return false;
+        if (!checkField("phone", "Phone")) return false;
+    
+        const name = document.getElementById("name").value.trim();
+        const email = document.getElementById("email").value.trim();
+        const phone = document.getElementById("phone").value.trim();
+    
+        document.getElementById("showName").textContent = name;
+        document.getElementById("showEmail").textContent = email;
+        document.getElementById("showPhone").textContent = phone;
+    
+        // Hide form, show card
+        document.getElementById("form-section").classList.add("d-none");
+        document.getElementById("card-section").classList.remove("d-none");
+    
+        return false; // prevent form from reloading
+      }
+    
+      function goBack() {
+        // Clear form fields
+        document.getElementById("name").value = "";
+        document.getElementById("email").value = "";
+        document.getElementById("phone").value = "";
+    
+        // Hide card, show form
+        document.getElementById("card-section").classList.add("d-none");
+        document.getElementById("form-section").classList.remove("d-none");
+      }*/   
+
+
+        // function fillCity() {
+        //   var cityName;
+        //   var zipEntered = document.getElementById("zip").value;
+        //    switch (zipEntered) {
+        //    case "60608" :
+        //    cityName = "Chicago";
+        //    break;
+        //    case "68114" :
+        //    cityName = "Omaha";
+        //    break;
+        //    case "53212" :
+        //    cityName = "Milwaukee";
+        //    }
+        //    document.getElementById("city").value = cityName;
+        //    }
+          
+
+          //  function fillCity(){
+          //   var cityName;
+
+          //   var zipEntered = document.querySelector("#zip").value;
+          //   switch(zipEntered){
+          //     case "60608":
+          //     cityName = "Chicago";
+          //     break;
+
+          //     case "68114":
+          //     cityName = "Omaha";
+          //     break;
+               
+          //     case "53212" :
+          //     cityName = "Milwaukee";
+          //     break;
+          //   }
+          //    document.querySelector("#city").value = cityName;
+          //  }
+
+          
