@@ -2970,7 +2970,7 @@
 // function calculateOvertimePay(hoursWorked) {
 //      const regularHours = 40;
 //      const overtimeRate = 12.00;
-       
+
 //      if (hoursWorked > regularHours) {
 //          let overtimeHours = hoursWorked - regularHours;
 //          let overtimePay = overtimeHours * overtimeRate;
@@ -2979,7 +2979,7 @@
 //          return 0;
 //      }
 //  }
- 
+
 //  const hoursWorked = parseInt(prompt("Enter hours worked: "), 10);
 //  if (!isNaN(hoursWorked) && hoursWorked >= 0) {
 //      let overtimePay = calculateOvertimePay(hoursWorked);
@@ -2987,10 +2987,10 @@
 //  } else {
 //      console.log("Invalid input. Please enter a valid number of hours.");
 //  }
- 
+
 
 // function calculateOverTimePay(workHorus){
-  
+
 //     var workTime = 40;
 //     var overTimeRate = 12.00;
 
@@ -3019,15 +3019,15 @@
 //         alert("Amount should be in hundreds.");
 //         return;
 //     }
-    
+
 //     let notes100 = Math.floor(amount / 100);
 //     let remaining = amount % 100;
-    
+
 //     let notes50 = Math.floor(remaining / 50);
 //     remaining = remaining % 50;
-    
+
 //     let notes10 = Math.floor(remaining / 10);
-    
+
 //     console.log(`100s: ${notes100}, 50s: ${notes50}, 10s: ${notes10}`);
 // }
 
@@ -3040,7 +3040,7 @@
 //     alert("Amount should be in hundreds.");
 //     return;
 //    }
- 
+
 //    var notes100 = amount / 100;
 //    var remaining = amount % 100;
 
@@ -3083,31 +3083,31 @@
 // console.log(getUl.lastChild.textContent = "Akbar Raza");
 
 
-    // var getUl = document.querySelector("#ul");
-    // var getinp = document.querySelector("#inp");
+// var getUl = document.querySelector("#ul");
+// var getinp = document.querySelector("#inp");
 
-    // function addBtn(){
+// function addBtn(){
 
-    //     if(getinp.value == ""){
-    //         alert("Enter some Vlue in input")
-    //     }else{
-    //     getUl.innerHTML += `<li>${getinp.value} <button onclick="edit(this)"><i class='fa-solid fa-trash'></i></button><button onclick="detlet(this)"><i class='fa-solid fa-trash'></i></button></li> `;
-    //     getinp.value = ""
-    //     }
-    // }
+//     if(getinp.value == ""){
+//         alert("Enter some Vlue in input")
+//     }else{
+//     getUl.innerHTML += `<li>${getinp.value} <button onclick="edit(this)"><i class='fa-solid fa-trash'></i></button><button onclick="detlet(this)"><i class='fa-solid fa-trash'></i></button></li> `;
+//     getinp.value = ""
+//     }
+// }
 
-    // function delAll(){
-    //     getUl.innerHTML = " ";
-    // }
+// function delAll(){
+//     getUl.innerHTML = " ";
+// }
 
-    // function edit(a){
-    // var pro = prompt("Enter Edit Item",a.parentNode.firstChild.textContent);
-    // a.parentNode.firstChild.textContent = pro;
-    // }
+// function edit(a){
+// var pro = prompt("Enter Edit Item",a.parentNode.firstChild.textContent);
+// a.parentNode.firstChild.textContent = pro;
+// }
 
-    // function detlet(a){
-    // a.parentNode.remove()
-    // }
+// function detlet(a){
+// a.parentNode.remove()
+// }
 
 
 //     var inputBox = document.querySelector("#input-box");
@@ -3335,7 +3335,7 @@ document.writeln(revers)*/
 //      alert("Email address required.");
 //      }
 // } 
-    
+
 
 /*function checkAddress(fieldId, fieldName) {
     var value = document.getElementById(fieldId).value;
@@ -3374,82 +3374,295 @@ document.writeln(revers)*/
   }*/
 
 
-   /* function checkField(id, label) {
-        const value = document.getElementById(id).value.trim();
-        if (value === "") {
-          alert(label + " is required.");
-          return false;
-        }
-        return true;
-      }
-    
-      function handleSubmit() {
-        if (!checkField("name", "Name")) return false;
-        if (!checkField("email", "Email")) return false;
-        if (!checkField("phone", "Phone")) return false;
-    
-        const name = document.getElementById("name").value.trim();
-        const email = document.getElementById("email").value.trim();
-        const phone = document.getElementById("phone").value.trim();
-    
-        document.getElementById("showName").textContent = name;
-        document.getElementById("showEmail").textContent = email;
-        document.getElementById("showPhone").textContent = phone;
-    
-        // Hide form, show card
-        document.getElementById("form-section").classList.add("d-none");
-        document.getElementById("card-section").classList.remove("d-none");
-    
-        return false; // prevent form from reloading
-      }
-    
-      function goBack() {
-        // Clear form fields
-        document.getElementById("name").value = "";
-        document.getElementById("email").value = "";
-        document.getElementById("phone").value = "";
-    
-        // Hide card, show form
-        document.getElementById("card-section").classList.add("d-none");
-        document.getElementById("form-section").classList.remove("d-none");
-      }*/   
+/* function checkField(id, label) {
+     const value = document.getElementById(id).value.trim();
+     if (value === "") {
+       alert(label + " is required.");
+       return false;
+     }
+     return true;
+   }
+ 
+   function handleSubmit() {
+     if (!checkField("name", "Name")) return false;
+     if (!checkField("email", "Email")) return false;
+     if (!checkField("phone", "Phone")) return false;
+ 
+     const name = document.getElementById("name").value.trim();
+     const email = document.getElementById("email").value.trim();
+     const phone = document.getElementById("phone").value.trim();
+ 
+     document.getElementById("showName").textContent = name;
+     document.getElementById("showEmail").textContent = email;
+     document.getElementById("showPhone").textContent = phone;
+ 
+     // Hide form, show card
+     document.getElementById("form-section").classList.add("d-none");
+     document.getElementById("card-section").classList.remove("d-none");
+ 
+     return false; // prevent form from reloading
+   }
+ 
+   function goBack() {
+     // Clear form fields
+     document.getElementById("name").value = "";
+     document.getElementById("email").value = "";
+     document.getElementById("phone").value = "";
+ 
+     // Hide card, show form
+     document.getElementById("card-section").classList.add("d-none");
+     document.getElementById("form-section").classList.remove("d-none");
+   }*/
 
 
-        // function fillCity() {
-        //   var cityName;
-        //   var zipEntered = document.getElementById("zip").value;
-        //    switch (zipEntered) {
-        //    case "60608" :
-        //    cityName = "Chicago";
-        //    break;
-        //    case "68114" :
-        //    cityName = "Omaha";
-        //    break;
-        //    case "53212" :
-        //    cityName = "Milwaukee";
-        //    }
-        //    document.getElementById("city").value = cityName;
-        //    }
-          
+// function fillCity() {
+//   var cityName;
+//   var zipEntered = document.getElementById("zip").value;
+//    switch (zipEntered) {
+//    case "60608" :
+//    cityName = "Chicago";
+//    break;
+//    case "68114" :
+//    cityName = "Omaha";
+//    break;
+//    case "53212" :
+//    cityName = "Milwaukee";
+//    }
+//    document.getElementById("city").value = cityName;
+//    }
 
-          //  function fillCity(){
-          //   var cityName;
 
-          //   var zipEntered = document.querySelector("#zip").value;
-          //   switch(zipEntered){
-          //     case "60608":
-          //     cityName = "Chicago";
-          //     break;
+//  function fillCity(){
+//   var cityName;
 
-          //     case "68114":
-          //     cityName = "Omaha";
-          //     break;
-               
-          //     case "53212" :
-          //     cityName = "Milwaukee";
-          //     break;
-          //   }
-          //    document.querySelector("#city").value = cityName;
-          //  }
+//   var zipEntered = document.querySelector("#zip").value;
+//   switch(zipEntered){
+//     case "60608":
+//     cityName = "Chicago";
+//     break;
 
-          
+//     case "68114":
+//     cityName = "Omaha";
+//     break;
+
+//     case "53212" :
+//     cityName = "Milwaukee";
+//     break;
+//   }
+//    document.querySelector("#city").value = cityName;
+//  }
+
+/*var getContainer = document.querySelector("#card-container");
+
+
+var products = [
+  {
+    p_id: "01",
+    p_item: "Mobile",
+    p_Name: "Samsung Galaxy s24 ultra",
+    p_price: "40000",
+    p_dis: "This Moble is Samsung company. This is the best mobile.",
+    p_img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS60OZg221zO7L0l9oWB8c-v3GDVK5fy6Mnww&s"
+  },
+
+  {
+    p_id: "02",
+    p_item: "Car",
+    p_Name: "Bugguit",
+    p_price: "1000000",
+    p_dis: "This Car is Samsung company. This is the best Car.",
+    p_img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShZptnSBayYzwAMb8X8BdEhOSGsx4do0D-kg&s"
+  },
+
+  {
+    p_id: "03",
+    p_item: "LED",
+    p_Name: "Sony",
+    p_price: "5000",
+    p_dis: "This LED is Samsung company. This is the best LED.",
+    p_img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGLmRK26vLV3TPUghTtnVwR1quV3wyjisqJw&s"
+  },
+
+  {
+    p_id: "04",
+    p_item: "Airplane",
+    p_Name: "P-I-A",
+    p_price: "6000",
+    p_dis: "This Airplane is Samsung company. This is the best Airplane.",
+    p_img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT8-zu0Xi2JG6GeMMh_TPWwzNqkUf5cOraSA&s"
+  },
+
+  {
+    p_id: "05",
+    p_item: "Laptop",
+    p_Name: "Lenovo",
+    p_price: "37000",
+    p_dis: "This Laptop is Samsung company. This is the best Laptop.",
+    p_img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFDpmDI24xg1mPOCfoz6ab0xXRysEXSJLNDQ&s"
+  },
+
+  {
+    p_id: "06",
+    p_item: "Fan",
+    p_Name: "Khurshid",
+    p_price: "5000",
+    p_dis: "This Fan is Samsung company. This is the best Fan.",
+    p_img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPDvjeAsulbLMDmU5yTDmvKz_QwvZg5yWtsg&s"
+  }
+]
+
+for (var i = 0; i < products.length; i++) {
+  var items = products[i];
+
+  getContainer.innerHTML += `
+  <div class="col-md-4 mb-4">
+    <div class="card h-100 shadow-sm">
+      <img src="${items.p_img}" class="card-img-top img-fluid" alt="${items.p_Name}">
+      <div class="card-body">
+        <h5 class="card-title">${items.p_Name}</h5>
+        <p class="card-text"><strong>ID:</strong> ${items.p_id}</p>
+        <p class="card-text"><strong>Type:</strong> ${items.p_item}</p>
+        <p class="card-text"><strong>Price:</strong> Rs. ${items.p_price}</p>
+        <p class="card-text">${items.p_dis}</p>
+      </div>
+    </div>
+  </div>
+`};*/
+
+/*function signUp(){
+  var getName = document.querySelector("#Name").value;
+  var getEmail = document.querySelector("#email").value;
+  var getPassword = document.querySelector("#password").value;
+
+  localStorage.setItem("Name",getName);
+  localStorage.setItem("email",getEmail);
+  localStorage.setItem("password",getPassword);
+
+  location.href = "./login.html"
+}
+
+
+function login(){
+  var getName = document.querySelector("#Name").value;
+  var getEmail = document.querySelector("#email").value;
+  var getPassword = document.querySelector("#password").value;
+
+  if(getName.innerHTML && getEmail.innerHTML && getPassword){
+    alert("You are success full Login");
+  }
+  else{
+    alert("Your data is in correct");
+  }
+  location.href = "./wellCome.html";
+}
+
+function LogOut(){
+  localStorage.clear();
+  location.href = "./index.html"
+}*/
+
+
+/*function signup(){
+  var getName = document.querySelector("#Name").value;
+  var getEmail = document.querySelector("#Email").value;
+  var getPassword = document.querySelector("#password").value;
+
+localStorage.setItem("name",getName);
+localStorage.setItem("email",getEmail);
+localStorage.setItem("password",getPassword);
+
+location.href = "./login.html"
+}
+
+function login(){
+  var getEmail = document.querySelector("#Email");
+  var getPassword = document.querySelector("#password");
+
+  var getEmailFormS = localStorage.getItem("email");
+  var getPasswordFormS = localStorage.getItem("password")
+
+  if(getEmail.value == getEmailFormS &&
+     getPassword.value == getPasswordFormS
+){
+  alert("user signed in successfully");
+  location.href = "./wellCome.html";
+}
+else{
+  alert("Invalid credentials");
+}
+}
+
+function logout(){
+  localStorage.clear();
+  location.href = "./index.html"
+}*/
+
+
+/*function signUp(){
+  var getName = document.querySelector("#name").value;
+  var getEmail = document.querySelector("#email").value;
+  var getPassword = document.querySelector("#password").value;
+
+  localStorage.setItem("name",getName);
+  localStorage.setItem("email",getEmail);
+  localStorage.setItem("password",getPassword);
+
+  location.href = "./login.html"
+}
+
+function login(){
+  var getEmail = document.querySelector("#email");
+  var getPassword = document.querySelector("#password");
+
+  var getEmailFormS = localStorage.getItem("email");
+  var getPasswordFormS = localStorage.getItem("password");
+
+  if(getEmail.value == getEmailFormS && getPassword.value == getPasswordFormS){
+      alert("User sign in Successfully");
+      location.href = "./wellCome.html";
+  }
+  else{
+    alert("Invalid Credentials");
+  }
+}
+
+function LogOut(){
+  localStorage.clear();
+  location.href = "./index.html"
+}*/
+
+
+/*function signUp(){
+  var getName = document.querySelector("#name").value;
+  var getEmail = document.querySelector("#email").value;
+  var getPassword = document.querySelector("#password").value;
+
+  localStorage.setItem("name",getName);
+  localStorage.setItem("email",getEmail);
+  localStorage.setItem("password",getPassword);
+
+  location.href = "./login.html";
+}
+
+
+function login(){
+  var getEmail = document.querySelector("#email");
+  var getPassword = document.querySelector("#password");
+
+  var getEmailFormS = localStorage.getItem("email");
+  var getPasswordFormS = localStorage.getItem("password");
+
+  if(getEmail.value == getEmailFormS && getPassword.value == getPasswordFormS){
+    alert("user login successfully");
+    location.href = "./wellCome.html";
+  }
+  else{
+    alert("Invalid Credentials");
+  }
+}
+
+
+function logout(){
+  localStorage.clear();
+  location.href = "./index.html"
+}*/
