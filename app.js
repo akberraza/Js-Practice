@@ -4023,8 +4023,80 @@ function loadQuestion(){
    getOption2.innerText = q.option2;
    getOption3.innerText = q.option3;
    
+getQuestionNumber.innerHTML = `Question ${index + 1} / ${questions.length}`;
+getBtn.disabled = true;
 
-}*/
+startTimer();
+
+autoNextTimeout = setTimeout(function(){
+  checkAnswer();
+  index++;
+  loadQuestion();
+},10000);
+}
+
+function enableNext(){
+  getBtn.disabled = false;
+  for(var i = 0; i < getInputs.length; i++){
+    getInputs[i].parentElement.classList.remove("active");
+    getInputs[i].parentElement.querySelector("i").className = "far fa-circle";
+  
+    if(getInputs[i].checked){
+   getInputs[i].parentElement.classList.add("active");
+   getInputs[i].parentElement.querySelector("i").className = "far fa-check-circle";
+    }
+  }
+}
+
+function next(){
+  clearInterval(timeInterval);
+  clearTimeout(autoNextTimeout);
+  index++;
+  loadQuestion();
+}
+
+function checkAnswer(){
+  for(var i = 0; getInputs.length; i++){
+    if(getInputs[i].checked){
+   var selectedText = document.querySelector("opt" + (i + 1)).innerHTML;
+      if(selectedText === questions[index].correctOption){
+      score++;
+      }
+      break;
+    }
+  }
+}
+
+
+function showResult(){
+  clearInterval(timeInterval);
+  clearTimeout(autoNextTimeout);
+
+  var percentage = (score / questions.length) * 100;
+  var status = percentage >= 75 ? "Pass" : "Fail";
+
+  swal.fire({
+    title: `Quiz Ended!`,
+    html: `Your Score: <strong>${score}/${questions.length}</strong> <br> Percentage: <strong>${percentage}</strong>`,
+    icon: status === "Pass" ? "success" : "error",
+    showCanelButton: true,
+    confirmButtonText: "Restart",
+    cancelButtonText: "Cancel",
+  }).then((reult)=>{
+    if(reult.isConfirmed){
+    index = 0;
+    score = 0;
+
+    setTimeout(()=>{
+      loadQuestion();
+    },300);
+  }else{
+    swal.fire("Quiz Can")
+  }
+  });
+}
+
+loadQuestion();*/
 
 /*var arr = [];
 
